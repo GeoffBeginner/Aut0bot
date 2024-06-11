@@ -1,0 +1,24 @@
+body{
+		background-image: url('anime.png');
+		background-attachment: fixed;
+		background-repeat: no repeat;
+		background-position: center;
+		background-size: cover;
+		color: white;
+		font-family: bold;
+		text-align: center;
+}
+.dropdown-about{
+		text-align: center;
+		color: black;
+		margin-left: 12px;
+		padding-left: 12px;
+}
+#listOfCommands, #listOfCommandsEvent, #prefixOfCommands, #adminOfCommands {
+  border: none !important;
+}
+
+#listOfCommands:not(.modal), #listOfCommandsEvent:not(.modal), #prefixOfCommands:not(.modal), #adminOfCommands:not(.modal) {
+  box-shadow: none !important;
+}
+
